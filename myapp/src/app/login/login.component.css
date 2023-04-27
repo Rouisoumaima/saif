@@ -1,0 +1,76 @@
+   /* Style de la barre de navigation */
+   
+  
+  .welcome-page {
+  background-image: url("../../assets/image/s4.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  
+}
+h1{top:40px ;
+height: 20vh;}
+
+  
+
+.text {
+    position: absolute; /* Position absolue pour positionner la phrase */
+    top: 40px; /* Positionnement en haut de la page */
+    left: 20px; /* Positionnement à gauche de la page */
+    font-size: 1.5em;
+  }
+ 
+  
+  label {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 10px;
+
+        }
+    
+        input {
+          padding: 5px;
+          border: none;
+          border-radius: 5px;
+          font-size: 1.2em;
+        }
+        
+        /* Style du bouton de connexion */
+        button {
+          padding: 10px 10px;
+          bottom: 80px;
+          left: 630px;
+          background-color: #080808;
+          color: rgb(255, 255, 255);
+          border: none;
+          border-radius: 5px;
+          font-size: 1.2em;
+          margin-top: 20px;
+          position: absolute;
+        }
+        .navbar {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          height: 50px;
+          background-color: rgb(2, 1, 2);
+          color: white;
+          padding: 0 20px;
+        }
+      
+        /* Style du logo de la barre de navigation */
+        .navbar-logo img {
+          height: 30px;
+          position: initial;
+        }
+      
+        /* Style du titre de la barre de navigation */
+        .navbar-title {
+          font-size: 1.2em;
+        }
+      button{margin-top: 0px;
+      height: 0px;}

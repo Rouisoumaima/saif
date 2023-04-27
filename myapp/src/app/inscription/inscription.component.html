@@ -1,0 +1,103 @@
+<section class="vh-100">
+  <div class="container py-5 h-100">
+    <div class="row d-flex justify-content-center align-items-center h-100">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+        <div class="card shadow-2-strong" style="border-radius: 1rem;" >
+          <div class="card-body p-9 text-center" >
+            <h3 class="mb- pb-4 pb-md-0 mb-md-5">INSCRIPTION</h3>
+            <form>
+              <table>
+                <tr>
+                  <td>
+                    <div class="form-group">
+                      <label for="nom"></label>
+                      <input type="name" class="form-control" id="nom" placeholder="Nom" required [(ngModel)]="user.nom"  [ngModelOptions]="{standalone: true}">
+                    </div>
+    
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="prenom"></label>
+                      <input type="prenom" class="form-control" id="prenom" placeholder="prenom" required [(ngModel)]="user.prenom"  [ngModelOptions]="{standalone: true}">
+                    </div>
+                   
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="form-group">
+                      <label for="email"></label>
+                      <input type="email" class="form-control" id="email" placeholder="Email" required [(ngModel)]="user.email" [ngModelOptions]="{standalone: true}">
+                    </div>
+                    
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>
+                    <div class="form-group">
+                      <label for="password"></label>
+                      <input type="password" class="form-control" id="password" placeholder="Mot de passe" required [(ngModel)]="user.password" [ngModelOptions]="{standalone: true}">
+                    </div>
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="password"></label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Confirmer le MDP">
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="form-group">
+                      <label for="num_tel">Telephone</label>
+                      <input type="number" class="form-control" id="num_tel"  required [(ngModel)]="user.num_tel" [ngModelOptions]="{standalone: true}">
+                    </div>
+                   
+                  </td>
+                  <td>
+                    <div class="form-group">
+                      <label for="date_embauche">Date_embauche</label>
+                      <input type="date" class="form-control" id="date_embauche"  name="dateEmbauche" required [(ngModel)]="user.dateEmbauche" [ngModelOptions]="{standalone: true}">
+                    </div>
+                                 
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <div class="form-outline ">
+                      <label class="form-label test" for="form3Example4cdg" required>role</label>
+                  
+                      <select name="role" id="role" name="nom" required [(ngModel)]="user.titre_poste" [ngModelOptions]="{standalone: true}">
+                        <option value="Teamleader">Team Leader</option>
+                        <option value="Manager">Manager</option>
+                      </select>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                   
+                  </td>
+                </tr>
+                
+              <div class="row">
+                <div class="col-md-6 ">
+
+
+                  <div class="">
+                    <button type="button" 
+                      class="btn btn-secondary"(click)="change(user)">Se Connecter</button>
+                  </div>
+
+  
+</div>
+</div>
+</table>
+</form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
